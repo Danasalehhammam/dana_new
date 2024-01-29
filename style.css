@@ -4,6 +4,8 @@ body{
 h1{
     color: red;
     text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 h3{
     color: white;
