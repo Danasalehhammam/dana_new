@@ -3,8 +3,6 @@ body{
 }
 h1{
     color: red;
-    display: flex;
-    
     text-align: center;
 }
 h3{
