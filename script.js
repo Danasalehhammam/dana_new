@@ -1,8 +1,10 @@
-
-const name = "Dana SH";
+const title = document.getElementById("title")
 let i = 0;
+const n = "Dana SH"
+console.log(title)
 const interval = setInterval(() => {
-  document.body.innerHTML += name[i];
+  title.textContent += n[i];
+  
   i++;
-  if (i === name.length) clearInterval(interval);
-}, 1000);
+  if (i === n.length) clearInterval(interval);
+}, 500);
