@@ -40,7 +40,7 @@ img{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 80%;
     width: 50%;
     padding: 16px;
     color: rgb(213, 242, 225);
