@@ -63,7 +63,7 @@ img{
   }
   
   .text {
-    color: #da5c5c;
+    color: #e90b0b;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -90,7 +90,7 @@ img{
     /* transition: background-color 0.6s ease; */
   }
   .active, .dot:hover {
-    background-color: #f52e45;
+    background-color:red;
   } 
   
   .fade {
