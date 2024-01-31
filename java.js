@@ -1,0 +1,1 @@
+var slideshows = document.querySelectorAll('[data-component="slide"]);

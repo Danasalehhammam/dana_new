@@ -12,7 +12,28 @@
        <h1 class="B" >About me in particular :</h1> 
         <br>
         <ol>
-            <li>I said in homepage that my University is <span class="uni"> American University of Madaba</span> ,and this picture explains it </li>
+            <li>I said in homepage that my University is <span class="uni"> American University of Madaba</span> ,and this picture explains it: </li>
+             <br>
+            <div id="slideshow" data-component="slideshow">
+                <div role="list">
+                    <div class="slide">
+                        <img src="AUM.jpg" alt="Image 1" height="250px" width="300px">
+                    </div>
+                    <div class="slide">
+                        <img src="AUM 2.jpg" alt="Image 2" height="250px" width="300px">
+                    </div>
+                        <div class="slide">
+                            <img src="AUM 3.jpg" alt="Image 3" height="250px" width="300px">
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
         </ol>
     </div>
 </body>
