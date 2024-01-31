@@ -40,7 +40,7 @@ img{
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 80%;
+    top: 50%;
     width: 50%;
     padding: 16px;
     color: rgb(213, 242, 225);
@@ -55,9 +55,9 @@ img{
     border-radius: 3px 0 0 3px;
   }
   
-  .prev:hover, .next:hover {
-    background-color: rgba(40, 54, 197, 0.8);
-  }
+  /* .prev:hover, .next:hover {
+    background-color: rgba(0, 1, 9, 0.8);
+  } */
   .text {
     color: #da5c5c;
     font-size: 15px;
