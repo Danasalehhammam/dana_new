@@ -74,7 +74,7 @@ img{
     position: absolute;
     top: 0;
   }
-  /* .dot {
+   .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -86,7 +86,7 @@ img{
   }
   .active, .dot:hover {
     background-color: #9dd717;
-  } */
+  } 
   
   .fade {
     animation-name: fade;
